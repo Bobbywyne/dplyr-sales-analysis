@@ -1,14 +1,14 @@
-# analysis.R - Sales Data Analysis
+analysis.R - Sales Data Analysis
 
-# Load required packages
+Load required packages
 library(dplyr)
 library(lubridate)
 library(stringr)
 library(tidyr)
 
-# Read the untidy data
+Read the untidy data
 sales_data <- read.csv("RetailSales_Untidy.csv", stringsAsFactors = FALSE)
 
-# View structure
+View structure
 str(sales_data)
 head(sales_data)
